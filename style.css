@@ -1,0 +1,141 @@
+body {
+/*	background: url("/photos/runSized.jpeg") no-repeat fixed;
+	background-size: 100vw 100%;'*/
+	width: 100vw;
+	height: 100vh;
+}	
+
+
+section {
+}
+
+#home {
+	height: 100vh;
+	width: 100vw;
+	padding-top:42vh;
+	padding-left: 45vw;
+	color: #fff;
+}
+
+nav {
+	padding-bottom: 2vh;
+	border-bottom: none;
+   	background: linear-gradient(to top, rgba(59, 28, 50, .8), rgba(59, 28, 50, 1));
+   	height: 6vh;
+}
+
+.navbar .navbar-brand {
+	color: white;
+}
+
+.navbar .nav > li > a {
+	color: white;
+}
+
+.navbar .nav > li > a:hover {
+	color: #9B9B93;
+}
+
+#funFacts {
+	width: 50vw;
+
+}
+
+button {
+  color: #fff;
+  padding: 8px 12px;
+  letter-spacing: 1.5px;
+	border: 2px solid #fff;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+background-color: rgba(255,255,255,0.4);
+}
+
+
+.options {
+	margin-top: 20vh;
+}
+h5 {
+	text-align: center;
+}
+
+.wrapper {
+color: #fff;
+padding: 20px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+width: 32vw;
+height: 25vh;
+float: left;
+margin: .5vw;
+background-color: rgba(255, 255, 255, 0.30);
+cursor: pointer;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.wrapper:hover {
+background-color: rgba(255, 255, 255, 0.50);
+}
+
+li {
+	display: inline;
+}
+
+.progress {
+  border: 3px solid rgba(59, 28, 50, 1);
+}
+
+.progress-bar {
+	background-color: rgba(59, 28, 50, 1);
+}
+
+.dark {
+	background-color: rgba(0, 7, 11, 0.87);
+	color: #fff;
+}
+
+.light {
+	background-color: #fff;
+	color: black;
+}
+
+.testimonial .cover {
+	background-color: #fff;
+	padding-left: 0px;
+}
+
+a {
+	color: #fff;
+}
+
+a.rotate-box-1, a.rotate-box-2 {
+	color: #fff;
+}
+
+.portfolio_menu ul li a  {
+	color: #fff;
+}
+
+.active_prot_menu a, .portfolio_menu ul li a:hover{
+  background: rgba(59, 28, 50, 1);
+  border: 2px solid white;
+}
+
+.paragraphs {
+	text-align: left;
+}
+
+.owl-controls .clickable {
+	color: black;
+}
+
+.rotate-box-1.square-icon .rotate-box-icon, .rotate-box-2.square-icon .rotate-box-icon {
+	background-color: rgba(59, 28, 50, 1);
+}
