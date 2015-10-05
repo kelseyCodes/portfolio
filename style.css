@@ -149,3 +149,17 @@ a:hover, a:focus {
   color: #664E4C;
   text-decoration: none;
 }
+
+#contact_info {
+	text-align: center;
+}
+
+#contact_info > div > ul > li {
+	margin-left: 1vw;
+}
+
+.pics {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
