@@ -97,7 +97,7 @@ li {
 }
 
 .dark {
-	background-color: rgba(0, 7, 11, 0.87);
+	background-color: #1E0021;
 	color: #fff;
 }
 
@@ -124,7 +124,7 @@ a.rotate-box-1, a.rotate-box-2 {
 }
 
 .active_prot_menu a, .portfolio_menu ul li a:hover{
-  background: rgba(59, 28, 50, 1);
+  background: rgba(102,78,76, 1);
   border: 2px solid white;
 }
 
@@ -137,5 +137,15 @@ a.rotate-box-1, a.rotate-box-2 {
 }
 
 .rotate-box-1.square-icon .rotate-box-icon, .rotate-box-2.square-icon .rotate-box-icon {
-	background-color: rgba(59, 28, 50, 1);
+	background-color: #664E4C;
+}
+
+#contact-section .cover {
+	background-color: #1E0021;
+	color: #fff;
+}
+
+a:hover, a:focus {
+  color: #664E4C;
+  text-decoration: none;
 }
