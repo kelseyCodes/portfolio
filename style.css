@@ -163,3 +163,24 @@ a:hover, a:focus {
 	padding-right: 5px;
 	padding-bottom: 15px;
 }
+
+.darker .owl-theme .owl-controls .owl-page.active span {
+	border: 3px solid black;
+}
+
+#text-carousel-intro-section .caption {
+	top: 40vh;
+}
+
+#text-carousel-intro-section .caption p {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+a.btn.btn-blank {
+	border: 1px solid white;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color:  #301729;
+}

@@ -989,6 +989,12 @@ p.subtitle {
 	background: rgba(0, 0, 0, 0);
 	border: 3px solid #fff;
 }
+
+.owl-theme .owl-controls .owl-page.active .darker span, .owl-theme .owl-controls.clickable .owl-page:hover .darker span {
+	background: rgba(0, 0, 0, 0);
+	border: 3px solid black;
+}
+
 .owl-buttons {
 	position: absolute;
 	top: 50%;
