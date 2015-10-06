@@ -145,9 +145,11 @@ $('.counter').counterUp({
 // Isotop Package
 ////////////////////////////////////////////////////////////////////////////////////////////
 $(window).load(function() {
+
+
 $('.portfolio_menu ul li').click(function(){
-	$('.portfolio_menu ul li').removeClass('active_prot_menu');
-	$(this).addClass('active_prot_menu');
+    $('.portfolio_menu ul li').removeClass('active_prot_menu');
+    $(this).addClass('active_prot_menu');
 });
 
 var $container = $('#portfolio');
@@ -155,6 +157,9 @@ $container.isotope({
   //itemSelector: '.col-sm-4',
   layoutMode: 'fitRows'
 });
+
+var filtVal = $("#defaulter").attr('data-filter');
+$container.isotope({filter: filtVal});
 
 
 $('#filters').on( 'click', 'a', function() {
