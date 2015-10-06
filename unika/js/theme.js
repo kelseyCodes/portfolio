@@ -196,3 +196,8 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+
+$('a#downloadable').click(function(e) {
+    e.preventDefault(); 
+    window.location.href = '/KelseyRoberts_downloadable.pdf';
+});
