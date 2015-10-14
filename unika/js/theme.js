@@ -204,5 +204,6 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 
 $('a#downloadable').click(function(e) {
     e.preventDefault(); 
-    window.location.href = '/KelseyRoberts_downloadable.pdf';
+window.open('/KelseyRoberts_downloadable.pdf','_blank'); 
 });
+
