@@ -145,6 +145,15 @@ a.rotate-box-1, a.rotate-box-2 {
 	color: #fff;
 }
 
+a#gitty{
+	color: black;
+}
+
+a#gitty:hover {
+	color: #664E4C;
+  text-decoration: none;
+}
+
 a:hover, a:focus {
   color: #664E4C;
   text-decoration: none;
